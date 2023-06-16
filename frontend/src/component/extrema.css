@@ -1,0 +1,12 @@
+.table-overview {
+    display: flex;
+
+    background-color: #f5f5f5;
+    border-radius: 10px; /* 弧形边框 */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5); /* 阴影效果 */
+    margin-top: 4px;
+    margin-bottom: 4px;
+    margin-left: 4px;
+    margin-right: 4px;
+    min-height: 30px;
+}

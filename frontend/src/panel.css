@@ -1,0 +1,32 @@
+.custom-header {
+    background-color: #ffffff; /* 灰色背景 */
+    color: #000000; /* 黑色字体 */
+}
+
+.custom-header-content {
+    display: flex;
+    background-color: #f5f5f5;
+    border-radius: 10px; /* 弧形边框 */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* 阴影效果 */
+    margin-top: 4px;
+    margin-bottom: 4px;
+    margin-left: 4px;
+    margin-right: 4px;
+    min-height: 30px;
+}
+
+
+.text-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text {
+    display: inline-block;
+    height: 100%; /* 设置 span 的高度为上层 div 的高度 */
+    justify-content: center;
+    align-items: center;
+    font-size: 24px
+}
+
